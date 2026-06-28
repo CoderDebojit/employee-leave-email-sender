@@ -52,7 +52,8 @@ employee-leave-email-sender/
 │       ├── main-window.png
 │       ├── settings-tab.png
 │       ├── help-tab.png
-│       └── email-preview.png
+│       ├── email-preview.png
+│       └── ...
 │
 ├── docs/
 │   └── USAGE.md
