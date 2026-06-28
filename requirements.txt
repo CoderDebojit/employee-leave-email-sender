@@ -1,0 +1,7 @@
+# Leave Mailer — Python dependencies
+# Install: pip install -r requirements.txt
+
+pandas>=2.0.0
+openpyxl>=3.1.0
+pywin32>=306; sys_platform == "win32"   # Outlook COM — Windows only
+pyinstaller>=6.0.0                      # Only needed to build the .exe

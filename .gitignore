@@ -1,0 +1,19 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# Application Settings (Contains SMTP passwords - NEVER UPLOAD)
+lm_settings.json
+src/lm_settings.json
+
+# Ignore all Excel/CSV files globally to protect real employee data
+*.xlsx
+*.xls
+*.csv
