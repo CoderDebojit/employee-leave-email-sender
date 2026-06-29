@@ -22,7 +22,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from typing import Callable, List, Optional, Tuple
 
-from excel_reader import Employee, LeaveRecord
+from src.excel_reader import Employee, LeaveRecord
 
 
 # ── Config dataclass passed from Settings tab ─────────────────────────────────
