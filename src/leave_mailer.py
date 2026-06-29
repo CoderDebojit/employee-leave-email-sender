@@ -24,10 +24,10 @@ from tkinter import (
 )
 import tkinter as tk
 
-from excel_reader import read_excel
-from email_sender import OutlookSender, SmtpSender, SmtpConfig
-from template_generator import generate
-
+# Use the 'src.' prefix so Python finds these modules within the package
+from src.excel_reader import read_excel, Employee, LeaveRecord
+from src.email_sender import OutlookSender, SmtpSender, SmtpConfig
+from src.template_generator import generate
 
 # ── Resolve base directory (works for both .py and PyInstaller .exe) ──────────
 
